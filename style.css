@@ -51,8 +51,8 @@ nav > p {
 }
 .close-modal {
   position: absolute;
-  top: 0;
-  right: 1rem;
+  top: 1rem;
+  right: 2rem;
   font-size: 5rem;
   color: #333;
   cursor: pointer;
@@ -60,12 +60,15 @@ nav > p {
   background: none;
   font-size: 33px;
   color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 0rem 1rem;
 }
 .modal {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   justify-content: center;
   position: absolute;
   padding: 2rem 2rem 2rem 2rem;
@@ -85,6 +88,8 @@ h1 {
   font-size: 1.4rem;
   color: #fff;
   margin-bottom: 3rem;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3rem;
 }
 .p_tegi_2 {
   color: #fff;
@@ -130,5 +135,8 @@ h1 {
     padding: 1rem 1.9rem;
     border-radius: 10px;
     font-size: 10px;
+  }
+  h1 {
+    margin-right: 6rem;
   }
 }
